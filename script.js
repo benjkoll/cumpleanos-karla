@@ -38,17 +38,16 @@ window.addEventListener("load", () => {
 
     const frases = [
         "¿Segura? 🥺",
-        "Te daré otra oportunidad... 😏",
-        "Mujer malilla 😌",
-        "Seguro ya no me amas tanto 💖",
+        "Te daré otra oportunidad...",
+        "Mujer malilla ",
+        "Seguro ya no me amas tanto...",
         "Tu te lo pierdes... ",
         "Ultima oportunidad",
-        "El destino ya está decidido 💘"
     ];
 
     // Cuando presiona SÍ
     yesBtn.addEventListener("click", () => {
-        response.innerHTML = "Sabía que dirías que sí 😍💖✨";
+        response.innerHTML = "Sabía que dirías que sí 💖✨";
         response.style.fontSize = "1.6rem";
 
         confetti({
@@ -96,7 +95,7 @@ window.addEventListener("load", () => {
         // Después de varios intentos desaparece
         if (noClickCount > 7) {
             noBtn.style.display = "none";
-            response.innerHTML = "Sabia que dirías que si 😌💖";
+            response.innerHTML = "Sabia que dirías que si 💖";
         }
     }
 
